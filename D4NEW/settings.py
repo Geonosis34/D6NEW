@@ -176,5 +176,5 @@ ACCOUNT_FORMS = {'signup': 'sign.models.BasicSignupForm'}
 EMAIL_HOST = 'smtp.yandex.ru'  # адрес сервера Яндекс-почты для всех один и тот же
 EMAIL_PORT = 465  # порт smtp сервера тоже одинаковый
 EMAIL_HOST_USER = 'shishkin.vlad92'
-EMAIL_HOST_PASSWORD = '8Nokautnax8!!'
+EMAIL_HOST_PASSWORD = '*******'
 EMAIL_USE_SSL = True

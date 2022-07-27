@@ -16,6 +16,6 @@ urlpatterns = [
    path('<int:pk>/edit/', NewsUpdate.as_view(), name='news_update'),
    path('<int:pk>/delete/', NewsDelete.as_view(), name='news_delete'),
    path('search/', NewsSearch.as_view(), name='news_search'),
-   path('subscribe/', subscribe_to_category, name='sub_cat'),
-   path('unsubscribe/', unsubscribe_from_category, name='unsub_cat'),
+   path('subscribe/<int:pk>', subscribe_to_category, name='sub_cat'),
+   path('unsubscribe/<int:pk>', unsubscribe_from_category, name='unsub_cat'),
 ]
